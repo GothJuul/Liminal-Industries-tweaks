@@ -108,12 +108,19 @@ ServerEvents.recipes(event => {
         'supplementaries:ash',
         'botania:mana_powder'
     ])
+	
 
     event.recipes.botania.petal_apothecary('minecraft:brown_mushroom', [
         '#botania:petals/brown',
         'minecraft:bone_meal',
         'supplementaries:ash',
         'botania:mana_powder'
+	])
+
+    event.recipes.botania.petal_apothecary('minecraft:cornflower', [
+        '#botania:petals/blue',
+        'minecraft:bone_meal',
+        'botania:mana_powder',
     ])
 
     event.remove({type: 'minecraft:crafting_shapeless', output: 'thermal:gunpowder_mushroom_spores'})
