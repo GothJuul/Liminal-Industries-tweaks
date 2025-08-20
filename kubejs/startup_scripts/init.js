@@ -637,3 +637,19 @@ StartupEvents.registry('fluid', event => {
 		.bucketColor(0xFFFFFF)
 		.noBlock() 
 })
+
+StartupEvents.registry("block", (event) => {
+
+//undripstone
+
+    event.create("undrip_stone").displayName("Undrip Stone Block")
+    	.model('kubejs:block/undrip_stone')
+    	.material("stone")
+    	.soundType("stone")
+    	.hardness(1.5)
+    	.resistance(6.0)
+    	.fullBlock(true)
+    	.requiresTool(true)
+    	.tagBlock("mineable/pickaxe")
+	.tagBlock("minecraft:needs_stone_tool")
+})
