@@ -18,4 +18,8 @@ event.custom({
       "item": "minecraft:netherrack", amount: 1
     }
   ]
-})})
+
+})
+	event.recipes.createPressing('snad:suol_snad', 'minecraft:soul_sand')
+ event.recipes.createMilling('create:cinder_flour', 'minecraft:netherrack')
+})
