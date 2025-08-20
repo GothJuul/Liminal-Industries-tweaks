@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "kubejs:block/undrip_stone",
+    "bottom": "kubejs:block/undrip_stone",
+    "side": "kubejs:block/undrip_stone"
+  }
+}
